@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vcut"
+version = "1.0.0"
+description = "Local-first, human-supervised multi-camera graduation video editor"
+requires-python = ">=3.11"
+
+[project.scripts]
+vcut = "vcut.cli:main"
+vcut-gui = "vcut.gui:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

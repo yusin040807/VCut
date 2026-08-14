@@ -1,0 +1,3 @@
+[console_scripts]
+vcut = vcut.cli:main
+vcut-gui = vcut.gui:main

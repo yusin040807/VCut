@@ -1,0 +1,2 @@
+# VCut uses only the Python standard library at runtime.
+# FFmpeg and ffprobe are external system dependencies used for media work.
